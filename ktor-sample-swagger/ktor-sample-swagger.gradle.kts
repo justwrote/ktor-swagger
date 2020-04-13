@@ -1,5 +1,3 @@
-import org.jetbrains.kotlin.contracts.model.structure.UNKNOWN_COMPUTATION.type
-
 plugins {
     `application`
 }
