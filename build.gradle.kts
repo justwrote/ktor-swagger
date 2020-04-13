@@ -8,7 +8,7 @@ repositories {
 plugins {
     id("com.diffplug.gradle.spotless") version "3.28.1"
     id("nebula.release") version "14.1.0"
-    kotlin("jvm") version "1.3.41"
+    kotlin("jvm") version "1.3.70"
     id("jacoco")
 }
 
@@ -24,7 +24,7 @@ allprojects {
 }
 
 fun DependencyHandler.ktor(name: String) =
-    create(group = "io.ktor", name = name, version = "1.2.5")
+    create(group = "io.ktor", name = name, version = "1.3.2")
 
 subprojects {
     repositories {
